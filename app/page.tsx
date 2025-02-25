@@ -1,6 +1,6 @@
 import * as React from "react";
 import { ComponentPreview } from "@/components/component-preview";
-import ConnectWithMail from "@/registry/connect-with-mail/connect";
+import ConnectWithMail from "@/registry/connect-with-mail/connect-with-mail";
 
 // This page displays items from the custom registry.
 // You are free to implement this with your own design as needed.
