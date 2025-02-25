@@ -8,7 +8,7 @@
       "type": "registry:component",
       "title": "Connect with Mail",
       "description": "A component to connect with Mail.",
-      "registryDependencies": ["card"],
+      "registryDependencies": ["button", "dialog", "input", "label"],
       "files": [
         {
           "path": "registry/connect-with-mail/connect-with-mail.tsx",
