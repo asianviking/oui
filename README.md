@@ -1,20 +1,23 @@
-# registry-template
+# Onchain UI Registry
 
-You can use the `shadcn` CLI to run your own component registry. Running your own
-component registry allows you to distribute your custom components, hooks, pages, and
-other files to any React project.
+A component registry for Onchain UI (OUI) - a collection of beautifully designed, blockchain-ready React components. This registry allows you to distribute and share web3-native components, hooks, pages, and other files across any React project.
 
 ## Getting Started
 
-This is a template for creating a custom registry using Next.js.
+This registry is built on Next.js and provides a seamless way to share and distribute blockchain UI components.
 
-- The template uses a `registry.json` file to define components and their files.
-- The `shadcn build` command is used to build the registry.
-- The registry items are served as static files under `public/r/[name].json`.
-- The template also includes a route handler for serving registry items.
-- Every registry item are compatible with the `shadcn` CLI.
-- We have also added v0 integration using the `Open in v0` api.
+- Components are defined in `registry.json` with their associated files and dependencies
+- Built using the `shadcn` CLI infrastructure for reliable component distribution
+- Components are served as static files under `public/r/[name].json`
+- Includes route handlers for efficient component serving
+- Full compatibility with the `shadcn` CLI for easy installation
+- Integration with v0 for instant component previews
 
-## Documentation
+## Features
 
-Visit the [shadcn documentation](https://ui.shadcn.com/docs/registry) to view the full documentation.
+- 🔗 Blockchain-ready components
+- 🎨 Web3-native design patterns
+- ⚡️ Optimized for dApp development
+- 🔌 Easy integration with popular web3 libraries
+- 📦 Simple installation process
+- 🛠 Customizable and extensible
