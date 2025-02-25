@@ -1,9 +1,17 @@
 import * as React from "react";
-import { HelloWorld } from "@/registry/hello-world/hello-world";
 import { ComponentPreview } from "@/components/component-preview";
+import ConnectWithMail from "@/registry/connect-with-mail/connect";
 
 // This page displays items from the custom registry.
 // You are free to implement this with your own design as needed.
+
+const components = [
+  {
+    name: "connect-with-mail",
+    title: "A simple connect with mail button",
+    component: ConnectWithMail,
+  },
+];
 
 export default function Home() {
   return (
@@ -17,12 +25,15 @@ export default function Home() {
         </p>
       </header>
       <main className="flex flex-col flex-1 gap-8">
-        <ComponentPreview
-          name="hello-world"
-          title="A simple hello world component"
-        >
-          <HelloWorld />
-        </ComponentPreview>
+        {components.map((component) => (
+          <ComponentPreview
+            key={component.name}
+            name={component.name}
+            title={component.title}
+          >
+            <component.component />
+          </ComponentPreview>
+        ))}
       </main>
     </div>
   );

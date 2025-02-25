@@ -134,3 +134,14 @@
 [data-rehype-pretty-code-title] + pre {
   @apply mt-2;
 }
+
+
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
