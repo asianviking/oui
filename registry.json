@@ -13,7 +13,7 @@
         {
           "path": "registry/connect-with-mail/connect-with-mail.tsx",
           "type": "registry:component",
-          "target": "app/connect-with-mail/page.tsx"
+          "target": "components/connect-with-mail.tsx"
         }
       ]
     }
