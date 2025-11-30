@@ -1,5 +1,4 @@
 import { ExternalLink } from "lucide-react";
-import { ModeToggle } from "./mode-toggle";
 import { Button } from "./ui/button";
 
 export const Navbar = () => {
@@ -14,7 +13,6 @@ export const Navbar = () => {
           <Button variant="ghost">
             Follow me <ExternalLink className="w-2 h-2" />
           </Button>
-          <ModeToggle />
         </div>
       </div>
     </div>

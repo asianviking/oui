@@ -31,19 +31,19 @@ This is OUI (Onchain UI Registry) - a component registry for blockchain-ready Re
 - **State Management**: TanStack Query for data fetching
 - **Validation**: Zod for runtime type validation
 - **Icons**: Lucide React
-- **Package Manager**: pnpm (with bun.lock present)
+- **Package Manager**: bun
 
 ## Common Commands
 
 ```bash
 # Development
-pnpm dev              # Start development server with Turbopack
-pnpm build            # Build for production
-pnpm start            # Start production server
-pnpm lint             # Run ESLint
+bun dev              # Start development server with Turbopack
+bun run build        # Build for production
+bun start            # Start production server
+bun lint             # Run ESLint
 
 # Registry Management
-pnpm registry:build   # Build registry components using shadcn CLI
+bun registry:build   # Build registry components using shadcn CLI
 ```
 
 ## Development Patterns
@@ -52,7 +52,7 @@ pnpm registry:build   # Build registry components using shadcn CLI
 1. Create component directory in `registry/[component-name]/`
 2. Organize files in subdirectories: `components/`, `hooks/`, `lib/`, `page.tsx`
 3. Update `registry.json` with component metadata and file paths
-4. Run `pnpm registry:build` to generate static files
+4. Run `bun registry:build` to generate static files
 5. Components must be compatible with shadcn/ui installation patterns
 
 ### Component Dependencies
